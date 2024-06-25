@@ -1,0 +1,11 @@
+# H2O in 300K  https://iopscience.iop.org/article/10.1088/0143-0807/34/3/679
+p0: 101325          # Ambient pressure [Pa]
+pvap: 3539   # Saturation vapor pressure [Pa]
+rho: 1000                # Fluid density [kg/m^3] https://ineeringtoolbox.com/water-vapor-saturation-pressure-d_599.html
+s: 72.8e-3          # Surface tension [N/m]
+nu: 1.002e-3         # Dynamic viscosity [Pa.s]
+amp: 1.42         #  {value}* ambient_pressure
+f: 26.5e+3                  # Frequency [Hz]
+R0: 2.0e-06        # Initial bubble radius [m]  Req = 6.865530804666495e-06 
+gamma: 1.6666666           # Adiabatic index
+h: 2.25733634e-7        # Hard core (argon)  2.0e-06/8.86
